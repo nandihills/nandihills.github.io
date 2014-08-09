@@ -1,0 +1,150 @@
+/*MAPAS APP*/
+
+#jkit-tooltip{
+	background: none !important;
+  	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #222 !important;
+}
+
+#mainmap{
+	width: 600px;
+	overflow: auto;
+}
+
+#filter{
+	width: 600px;
+	float: left;
+}
+.mapbtn{
+  	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	width: 70px;
+	color: #999;
+	text-decoration: none;
+	height: 24px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url('../images/mapiconsprite.jpg') no-repeat;
+	float: left;
+	margin-right: 8px;
+	padding: 12px 0px 0px 42px;
+}
+#filter li{
+	list-style: none;
+}
+
+
+
+#btnwalks{
+	background-position: 0px 0px; 
+}
+#btnjeep{
+	background-position: 0px -36px; 
+}
+#btnsights{
+	background-position: 0px -72px;
+}
+#btnbird{
+	background-position: 0px -108px;
+}
+#btngeotour{
+	background-position: 0px -144px;
+}
+
+
+
+
+#ilha{
+	float: left;
+	width: 600px;
+	height: 256px;
+	background: url('../images/mapa.png') no-repeat;
+}
+
+
+.walk,.jeep,.sight,.gtour,.bird{
+	display: none;
+	}
+#ilha, #walks, #jeeptours, #sightseeing, #geotour, #birdwatching{
+	position: relative;
+}
+
+.walk, .jeep, .sight, .gtour, .bird{
+	position: absolute;
+	cursor: pointer;
+}
+
+#infoa, #infob,#infoc{
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	right: 0px;
+	top: 40px;
+	color: #CCC;	
+}
+
+
+#walkvara{
+	background: url('../images/paths/walkvara.png') no-repeat;
+	width: 34px;
+	height: 39px;
+	top: 99px;
+	left: 492px;
+}
+#walkescuro{
+	background: url('../images/paths/walkescuro.png') no-repeat;
+	width: 36px;
+	height: 67px;
+	top: 137px;
+	left: 323px;
+}
+#walkfogo{
+	background: url('../images/paths/walkfogo.png') no-repeat;
+	width: 20px;
+	height: 40px;
+	top: 164px;
+	left: 304px;
+}
+#walkribeira{
+	background: url('../images/paths/walkribeira.png') no-repeat;
+	width: 44px;
+	height: 20px;
+	top: 80px;
+	left: 375px;
+}
+#walkcumeeiras{
+	background: url('../images/paths/walkcumeeiras.png') no-repeat;
+	width: 47px;
+	height: 57px;
+	top: 43px;
+	left: 57px;
+}
+#walksetecidades{
+	background: url('../images/paths/walksetecidades.png') no-repeat;
+	width: 25px;
+	height: 57px;
+	top: 42px;
+	left: 45px;
+}
+#walksanguinho{
+	background: url('../images/paths/walksanguinho.png') no-repeat;
+	width: 14px;
+	height: 18px;
+	top: 164px;
+	left: 524px;
+}
+#jeepsetecidades{
+	background: url('../images/paths/jeepsetecidades.png') no-repeat;
+	top: 28px;
+	left: 17px;
+	width: 163px;
+	height: 176px;
+}
+#geotourpath{
+	background: url('../images/paths/geotourpath.png') no-repeat;
+	top: 105px;
+	left: 181px;
+	width: 207px;
+	height: 111px;
+}
